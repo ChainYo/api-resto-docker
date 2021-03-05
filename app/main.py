@@ -1,6 +1,4 @@
-from typing import Optional
 from fastapi import FastAPI
-
 from database import DB
 
 app = FastAPI()
@@ -24,7 +22,3 @@ async def get_resto_cooking_type(typeResto=None):
 @app.get("/api/grade", tags=['TOP 10'])
 async def get_resto_grade(grade=None):
     return DB.find_top_grade(grade)
-
-
-
-
