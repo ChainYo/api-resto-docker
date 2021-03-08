@@ -21,7 +21,7 @@ You should get this:
 
 # API Access
 
-Go there : http://localhost:88/
+After the installation, if the container is running, you can go there : http://localhost:88/
 
 To check which API endpoints are accessible, go there : http://localhost:88/docs
 
